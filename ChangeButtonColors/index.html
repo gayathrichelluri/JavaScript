@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Change button colors</title>
+</head>
+<body>
+    <div class = container>
+        <h2 id="header">Change the color of all buttons!</h2>
+        <div id = "buttons">
+            <form id="form" action="">
+                <select id="pick-color" onChange="onColorChange(this)">
+                    <option id="random">Random</option>
+                    <option id="blue">Blue</option>
+                    <option id="green">Green</option>
+                    <option id="red">Red</option>
+                    <option id="yellow">Yellow</option>
+                    <option id="reset">Reset</option>
+                </select>
+                <button class="btn btn-primary" type="button">You</button>
+                <button class="btn btn-success" type="button">Are</button>
+                <button class="btn btn-danger" type="button">Doing</button>
+                <button class="btn btn-warning" type="button">Good!</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
