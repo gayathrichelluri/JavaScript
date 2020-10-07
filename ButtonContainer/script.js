@@ -8,7 +8,6 @@ function copyOfBtnText() {
             copyBtnText[i][j] = btnText[i][j];
 }
 
-let tempBtnText = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 let rotate = [[0,1], [0,2], [1,2], [0,0], [2,2], [1,0], [2,0], [2,1]];
 
 let buttonContainer = document.getElementById('btns');
